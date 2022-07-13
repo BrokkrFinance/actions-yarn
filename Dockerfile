@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:14.17.0
 
 RUN apk add --no-cache git python3 build-base
 RUN npm i -g --force yarn
